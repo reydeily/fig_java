@@ -6,9 +6,8 @@ export function Header() {
       <S.Header>
         <picture>
          <img src={image} alt="img" />
-      </picture>
+        </picture>
         <h1>SUNLAR</h1>
-         
       </S.Header>
     )
   }
