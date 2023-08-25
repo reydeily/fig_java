@@ -4,7 +4,7 @@ import { colors } from "../../styles/GlobalStyle"
 export const Footer = styled.footer`
 border: 0.25rem solid ${colors.vclaro};
 display: flex;
-height: 40px;
+height: 3rem;
 width:100%;
 position: absolute;
 bottom: 0;
