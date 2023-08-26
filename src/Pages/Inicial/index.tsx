@@ -1,5 +1,4 @@
 import * as S from "./styles"
-import perfil from "../../assets/image 4.png"
 import inversor from "../../assets/inversor.jpg"
 import micro from "../../assets/micro.jpg"
 import placa from "../../assets/placa-solar555w.png"
@@ -10,16 +9,28 @@ export function Inicial() {
         <>
             
             <S.Section>
+                <a href="/produto">
                 <h2>Inversores</h2>
+                </a>
+                <a href="/produto">
                 <img src={inversor} alt="inv" />
+                </a>
             </S.Section>
             <S.Section>
+                <a href="/produto">
                 <h2>Micro Inversores</h2>
+                </a>
+                <a href="/produto">
                 <img src={micro} alt="micro" />
+                </a>
             </S.Section>
             <S.Section>
+            <a href="/produto">
                 <h2>Placa Fotovoltaica 550W</h2>
+            </a>
+            <a href="/produto">
                 <img src={placa} alt="placa" />
+            </a>
             </S.Section>
 
 

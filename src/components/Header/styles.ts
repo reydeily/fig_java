@@ -6,9 +6,10 @@ export const Header = styled.header`
   display: flex;
   align-items: center;
   justify-content: left;
-  height: 6rem;
+  height: 9rem;
   width:100%;
   background-color: ${colors.cinza};
+  font-size: xx-large;
 
 picture {
     margin-left: 0.5rem;
@@ -21,38 +22,43 @@ picture {
 h1{
   padding: 2rem;
 }
-div.ent{
-
-}
-
 
 `
 
 export const NavBar = styled.nav`
   /* Navegação */
+
   display: flex;
   align-items: center;
   width: 100%;
   justify-content: right;
   ul {
+    picture {
+    margin-left: 1px;
+    padding: 1rem;
+    height: 100%;
+    img {
+      height: 100%;
+    }
+  }
     list-style-type: none;
     display: flex;
     align-items: center;
-    height: 100%;
+    height: 100px;
     li {
       padding: 3rem;
-      height: 100%;
+      height: 100px;
       display: flex;
       align-items: center;
       a {
         padding-left: 1rem;
-        font-size: large;
+        font-size: x-large;
         text-decoration: none;
-        color: white ;
+        color: ${colors.preto} ;
       }
     }
     li:hover {
-      background-color: black;
+      background-color: ${colors.vclaro};
     }
   }
 

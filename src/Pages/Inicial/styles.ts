@@ -6,46 +6,41 @@ export const Section = styled.section`
 padding: 10rem;
 
 h2{
-  padding-top: 3rem;
-  align-items: center;
+  display: flex;
+  padding-top: 4rem;
+  justify-content: center;
   font-size: xx-large;
+  color: ${colors.preto}
+
+}
+a{
+  text-decoration: none;
+}
+a:hover {
+  background-color: ${colors.vclaro};
+  color: ${colors.preto}
 }
 
 
 img{
-  padding-left: 5rem;
-  width: 300px;
+  padding-left: 4rem;
+  width: 400px;
   border: 3px solid ${colors.vclaro};
   background-color: ${colors.branco};
   padding: 0.5rem;
   margin: 5px;
   align-items: center;
-  border-radius: 9000000px;
+  border-radius: 160px;
 }
-
 
   background-color: ${colors.branco};
   align-items: center;
   justify-content: center;
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
 `
 
 
 
-export const nav = styled.nav`
+/*export const nav = styled.nav`
  justify-content: center;
  align-items: center;
  div#enter{ 
@@ -101,7 +96,7 @@ div#im3{
  
 
 
-`
+`*/
 
 /*width: 300px;
   padding: 0.5rem;
