@@ -31,7 +31,6 @@ export function Produto() {
             <a href="/produto">
                 <img src={in2} alt="3k" />
             </a>
-            <h1>*EM DESENVOLVIMENTO ATE 00:00 DE 27/08*</h1>
             </S.Section>
 
 
