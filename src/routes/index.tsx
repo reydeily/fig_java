@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom"
-import { PageInicial, PageLayout, PageProduto } from "../Pages"
+import { PageInicial, PageLayout, PageProduto, PageAdmin, PageCdastrar, PageLogin } from "../Pages"
 
 export function RouteSoftware() {
     return (
@@ -8,7 +8,12 @@ export function RouteSoftware() {
           <Route path="" element={<PageInicial />} />
           <Route path="home" element={<PageInicial />} />
           <Route path="produto" element={<PageProduto />} />
+          <Route path="cadastrar" element={<PageCdastrar />} />
+          <Route path="login" element={<PageLogin />} />
+          <Route path="adm" element={<PageAdmin />}></Route>
         </Route>
       </Routes>
     )
   }
+
+  

@@ -1,10 +1,14 @@
-import axios from 'axios'
 
-const api = axios.create({
-    baseURL: 'https://apiadonis2023.onrender.com',
-    headers: {
-      'Content-Type': 'application/json',
-    },
-  })
-  
-  export default api
+import { IResponseUser, IUser } from "../../../interface/user.interface";
+import api from "../../api";
+
+class UserData {
+  register(data: IUser) {
+    return api.post<IResponseUser>('/register', data)
+  }
+  login(data: IUser) {
+    return api.post<IResponseUser>('/login', data)
+  }
+}
+
+export default new UserData()
